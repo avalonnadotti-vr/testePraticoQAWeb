@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 describe('Testes de Cadastro Marca', () => {
-  it('Automatizar o processo de login', () => {
+  it('Teste de cadastro marca', () => {
     cy.loginAvalon()
     cy.get(':nth-child(1) > .card-rede > .card-rede-name').click()
     cy.get('.btn--primary > span').click()
